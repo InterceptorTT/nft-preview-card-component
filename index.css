@@ -1,0 +1,224 @@
+:root {
+  --clr-primary-100: hsl(215, 51%, 70%);
+  --clr-primary-400: hsl(178, 100%, 50%);
+  --clr-neutral-100: hsl(217, 54%, 11%);
+  --clr-neutral-400: hsl(216, 50%, 16%);
+  --clr-neutral-700: hsl(215, 32%, 27%);
+  --clr-neutral-900: hsl(0, 0%, 100%);
+  --bg-primary-100: hsl(215, 51%, 70%);
+  --bg-primary-400: hsl(178, 100%, 50%);
+  --bg-neutral-100: hsl(217, 54%, 11%);
+  --bg-neutral-400: hsl(216, 50%, 16%);
+  --bg-neutral-700: hsl(215, 32%, 27%);
+  --bg-neutral-900: hsl(0, 0%, 100%);
+  --size-100: 0.5rem;
+  --size-200: 0.75rem;
+  --size-300: 1rem;
+  --size-500: 1.5rem;
+  --size-700: 2rem;
+  --ff-primary: "Outfit", sans-serif;
+  --ff-secondary: ;
+  --fw-small: 300;
+  --fw-normal: 400;
+  --fw-bold: 600;
+  --flex: flex;
+}
+
+/* Color panel */
+.clr-primary-100 {
+  color: var(--clr-primary-100);
+}
+
+.clr-primary-400 {
+  color: var(--clr-primary-400);
+}
+
+.clr-neutral-100 {
+  color: var(--clr-neutral-100);
+}
+
+.clr-neutral-400 {
+  color: var(--clr-neutral-400);
+}
+
+.clr-neutral-700 {
+  color: var(--clr-neutral-700);
+}
+
+.clr-neutral-900 {
+  color: var(--clr-neutral-900);
+}
+
+/* Background color panel*/
+.bg-primary-100 {
+  background-color: var(--bg-primary-100);
+}
+
+.bg-primary-400 {
+  background-color: var(--bg-primary-400);
+}
+
+.bg-neutral-100 {
+  background-color: var(--bg-neutral-100);
+}
+
+.bg-neutral-400 {
+  background-color: var(--bg-neutral-400);
+}
+
+.bg-neutral-700 {
+  background-color: var(--bg-neutral-700);
+}
+
+.bg-neutral-700 {
+  background-color: var(--clr-neutral-900);
+}
+
+/* Font Family */
+.ff-primary {
+  font-family: var(--ff-primary);
+}
+
+.ff-secondary {
+  font-family: var(--ff-secondary);
+}
+
+/* Font Weight */
+.fw-normal {
+  font-weight: var(--fw-small);
+}
+
+.fw-normal {
+  font-weight: var(--fw-normal);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+/* Font Size */
+.fz-100 {
+  font-size: var(--size-100);
+}
+
+.fz-200 {
+  font-size: var(--size-200);
+}
+
+.fz-300 {
+  font-size: var(--size-300);
+}
+
+.fz-500 {
+  font-size: var(--size-500);
+}
+
+.fz-700 {
+  font-size: var(--size-700);
+}
+
+/* Margin */
+.mg-100 {
+  margin: var(--size-100);
+}
+
+.mg-200 {
+  margin: var(--size-200);
+}
+
+.mg-300 {
+  margin: var(--size-300);
+}
+
+.mg-500 {
+  margin: var(--size-500);
+}
+
+.mg-700 {
+  margin: var(--size-700);
+}
+
+/* Flex propriety */
+.flex {
+  display: var(--flex);
+}
+
+.flex-center {
+  display: var(--flex);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Reset CSS */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+img, picture, svg {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Container */
+body .container {
+  border-radius: 10px;
+  max-height: 30rem;
+  max-width: 15rem;
+  height: 25rem;
+  width: 15rem;
+}
+body .container .card {
+  padding: var(--size-100);
+  flex-direction: column;
+}
+body .container .card > * {
+  margin: var(--size-100);
+}
+body .container .card .image-div {
+  margin-top: 1rem;
+}
+body .container .card .text-div {
+  flex-direction: column;
+  justify-content: left;
+}
+body .container .card .text-div .value > div {
+  margin: var(--size-200);
+  gap: var(--size-100);
+  align-items: center;
+}
+body .container .card .text-div .line {
+  width: 99%;
+  margin: 0 auto;
+  height: 1px;
+}
+body .container .card .text-div .creator {
+  align-items: center;
+  margin-top: 0.25rem;
+}
+body .container .card .text-div .creator > * {
+  margin: var(--size-100);
+}
+body .container .card .text-div .creator img {
+  width: var(--size-500);
+  height: var(--size-500);
+}/*# sourceMappingURL=index.css.map */
